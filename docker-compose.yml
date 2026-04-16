@@ -22,7 +22,7 @@ services:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: laravel
       MYSQL_USER: laravel
-      MYSQL_PASSWORD: edu335152
+      MYSQL_PASSWORD: secret
     volumes:
       - db_data:/var/lib/mysql
     restart: unless-stopped
